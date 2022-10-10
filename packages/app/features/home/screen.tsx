@@ -15,7 +15,9 @@ export function HomeScreen() {
         <P sx={{ textAlign: 'center' }}>
         Evolving React is a collection of projects from the React, React Native, Rust, and Web communities that are designed to work together to create a cross platform React Native Framework for the Evolving Web. 
         </P>
-        More features coming soon.
+        <P sx={{ textAlign: 'center' }}>
+          More features coming soon.
+        </P>
       </View>
       <View sx={{ height: 32 }} />
       <Row>
