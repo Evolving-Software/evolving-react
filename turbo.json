@@ -3,6 +3,10 @@
     "build": {
       "dependsOn": ["^build"],
       "outputs": [".next/**"]
+    },
+    "dev": {
+      "dependsOn": ["^build"],
+      "outputs": [".next/**"]
     }
   }
 }

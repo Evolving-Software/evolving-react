@@ -10,6 +10,9 @@
     ],
     "ios": {
       "bundleIdentifier": "com.solito.blank"
+    },
+    "android": {
+      "package": "io.evolvingsolutions.evolvingsoftware"
     }
   }
 }

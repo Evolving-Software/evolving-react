@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev:web": "next dev",
+    "build:web": "next build",
+    "start:web": "next start",
+    "lint:": "next lint",
+    "dev:desktop": "next dev -p 4000",
+    "build:desktop": "next build && next export -o dist",
+    "dev": "concurrently \"yarn dev:web\" \"yarn tauri dev\"",
+    "tauri": "tauri"
   },
   "dependencies": {
     "@expo/next-adapter": "^4.0.12",
@@ -19,6 +23,7 @@
     "@nissy-dev/swc-plugin-react-native-web": "^0.2.4",
     "@swc-node/core": "^1.9.1",
     "@swc-node/register": "^1.5.4",
+    "@tauri-apps/cli": "^1.1.1",
     "@types/node": "17.0.21",
     "eslint-config-next": "12.2.5",
     "next-compose-plugins": "^2.2.1",
