@@ -7,6 +7,22 @@
     "dev": {
       "dependsOn": ["^build"],
       "outputs": [".next/**"]
+    },
+    "web" : {
+      "dependsOn": ["^dev"],
+      "outputs": [".next/**"]
+    },
+    "android" : {
+      "dependsOn": ["^dev"],
+      "outputs": [".next/**"]
+    },
+    "ios" : {
+      "dependsOn": ["^dev"],
+      "outputs": [".next/**"]
+    },
+    "desktop" : {
+      "dependsOn": ["^dev"],
+      "outputs": [".next/**"]
     }
   }
 }

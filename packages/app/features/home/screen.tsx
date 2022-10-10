@@ -9,12 +9,13 @@ export function HomeScreen() {
     <View
       sx={{ flex: 1, justifyContent: 'center', alignItems: 'center', p: 16 }}
     >
-      <H1 sx={{ fontWeight: '800' }}>Welcome to Evolving Solutions.</H1>
-      <H2 sx={{ fontWeight: '600' }}>All the tools you already use integrated into one.</H2>
+      <H1 sx={{ fontWeight: '800' }}>Welcome to Evolving React.</H1>
+      <H2 sx={{ fontWeight: '600' }}>A cross platform React Native Framework for the Evolving Web.</H2>
       <View sx={{ maxWidth: 600 }}>
         <P sx={{ textAlign: 'center' }}>
-         Evolving Solutions is a customer experience platform that helps you build, manage, and grow your business.
+        Evolving React is a collection of projects from the React, React Native, Rust, and Web communities that are designed to work together to create a cross platform React Native Framework for the Evolving Web. 
         </P>
+        More features coming soon.
       </View>
       <View sx={{ height: 32 }} />
       <Row>

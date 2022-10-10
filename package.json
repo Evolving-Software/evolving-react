@@ -17,6 +17,10 @@
     "native": "cd apps/expo && expo start",
     "web": "cd apps/next && yarn next",
     "desktop": "cd apps/tauri && yarn start",
-    "dev": "turbo run dev"
+    "dev": "turbo run dev",
+    "dev:web": "turbo run web",
+    "dev:android": "turbo run android",
+    "dev:ios": "turbo run ios",
+    "dev:desktop": "turbo run desktop"
   }
 }
