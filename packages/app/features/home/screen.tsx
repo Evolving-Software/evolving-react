@@ -1,9 +1,10 @@
 import DrawerNavigation from 'app/components/DrawerNavigation'
+import Footer from 'app/components/footer'
 import { Text, useSx, View, H1, H2, P, Row, A } from 'dripsy'
 import { TextLink } from 'solito/link'
 import { MotiLink } from 'solito/moti'
 
-export function HomeScreen() {
+export default function HomeScreen() {
   const sx = useSx()
 
   return (
@@ -11,7 +12,6 @@ export function HomeScreen() {
     <View
       sx={{ flex: 1, justifyContent: 'center', alignItems: 'center', p: 16 }}
     >
-      <DrawerNavigation />
       <H1 sx={{ fontWeight: '800' }}>Welcome to Evolving React.</H1>
       <H2 sx={{ fontWeight: '600' }}>A cross platform React Native Framework for the Evolving Web.</H2>
       <View sx={{ maxWidth: 600 }}>

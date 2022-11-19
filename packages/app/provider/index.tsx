@@ -8,10 +8,9 @@ export function Provider({ children }: { children: React.ReactNode }) {
   return (
     <NavigationProvider>
       <NativeBaseProvider>
-        <DrawerNavigation />
+        {/* <DrawerNavigation /> */}
         <Dripsy>
           {children}
-          <Footer />
         </Dripsy>
       </NativeBaseProvider>
     </NavigationProvider>

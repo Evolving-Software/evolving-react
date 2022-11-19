@@ -19,6 +19,10 @@ import {
   Divider,
   Icon,
 } from "native-base";
+import HomeScreen from '../features/home/screen';
+
+
+
 global.__reanimatedWorkletInit = () => { };
 const Drawer = createDrawerNavigator();
 function Component(props) {
@@ -152,7 +156,7 @@ function DrawerNavigation() {
       <Drawer.Navigator
         drawerContent={(props) => <CustomDrawerContent {...props} />}
       >
-        <Drawer.Screen name="Inbox" component={Component} />
+        <Drawer.Screen name="Home" component={HomeScreen} />
         <Drawer.Screen name="Outbox" component={Component} />
         <Drawer.Screen name="Favorites" component={Component} />
         <Drawer.Screen name="Archive" component={Component} />
