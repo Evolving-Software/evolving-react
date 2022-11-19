@@ -1,4 +1,4 @@
-import { DripsyProvider, makeTheme } from 'dripsy'
+import { DripsyProvider, makeTheme,  } from 'dripsy'
 
 const theme = makeTheme({
   // https://www.dripsy.xyz/usage/theming/create

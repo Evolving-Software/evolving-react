@@ -1,5 +1,5 @@
-# Evolving React
-## A cross-platform React Native app toolkit for the Evolving Web
+# Evolving Solutions
+## A cross-platform solution for common business problems.
 ### Built with Expo, React Native, Next.js, Solito, and Tauri
 
 ## Getting Started

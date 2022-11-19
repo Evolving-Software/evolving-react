@@ -1,3 +1,4 @@
+import DrawerNavigation from 'app/components/DrawerNavigation'
 import { Text, useSx, View, H1, H2, P, Row, A } from 'dripsy'
 import { TextLink } from 'solito/link'
 import { MotiLink } from 'solito/moti'
@@ -6,14 +7,16 @@ export function HomeScreen() {
   const sx = useSx()
 
   return (
+
     <View
       sx={{ flex: 1, justifyContent: 'center', alignItems: 'center', p: 16 }}
     >
+      <DrawerNavigation />
       <H1 sx={{ fontWeight: '800' }}>Welcome to Evolving React.</H1>
       <H2 sx={{ fontWeight: '600' }}>A cross platform React Native Framework for the Evolving Web.</H2>
       <View sx={{ maxWidth: 600 }}>
         <P sx={{ textAlign: 'center' }}>
-        Evolving React is a collection of projects from the React, React Native, Rust, and Web communities that are designed to work together to create a cross platform React Native Framework for the Evolving Web. 
+          Evolving React is a collection of projects from the React, React Native, Rust, and Web communities that are designed to work together to create a cross platform React Native Framework for the Evolving Web.
         </P>
         <P sx={{ textAlign: 'center' }}>
           More features coming soon.
